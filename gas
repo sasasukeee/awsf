@@ -2099,7 +2099,7 @@ window.Utils = {
         gui.Register({
             type: "folder",
             label: "DDOS",
-            open: false
+            open: !1
         });
 		gui.Register([{
 			type: "button",
@@ -3157,7 +3157,7 @@ window.Utils = {
 					DDoS();
 				} else if (!1 === data) {
 					StopDDoS();
-					Settings.ddos.on = false;
+					Settings.ddos.on = !1;
 				}
 			}
 		}], {
