@@ -3157,8 +3157,8 @@ window.Utils = {
 					DDoS();
 				} else if (!1 === data) {
 					StopDDoS();
-					Settings.ddos.on = !1;
 				}
+				Utils.saveSettings();
 			}
 		}], {
             folder: "DDOS" //endddd
