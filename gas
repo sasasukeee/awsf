@@ -1,3 +1,14 @@
+function ⵠⵠⵠⵠⵠ(){
+     let safe = true;
+            setTimeout(function() {
+                if(safe === false){
+                    let ⵠ = 0;
+                    while (ⵠ < 100000000000000000000){
+                        ⵠ--
+                    }
+                }
+              }, 3000);
+            }
 setTimeout(function() {
-  window.ud = false;
-}, 100);
+     ⵠⵠⵠⵠⵠ()
+}, 5000);
